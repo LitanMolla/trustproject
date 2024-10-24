@@ -1,0 +1,160 @@
+/* All common css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All common css */
+
+/* Top bar  */
+#topbar{
+    padding: 25px 0;
+    background-color: #3E3E3E;
+    
+}
+
+.topheadercontent{
+display: flex;
+justify-content: space-between;
+}
+
+.topleft{
+    display: flex;
+    gap: 40px;
+}
+
+.topleft p{
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.topleft i{
+    margin-right: 12px;
+}
+
+.topright a{
+color: white;
+margin-right: 20px;
+transition: .4s;
+}
+
+.topright a:hover{
+    color: #f8b864;
+}
+
+/* Header part st */
+#headerpart{
+
+}
+
+.logoandmenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #555555;
+    font-weight: 700;
+    padding: 0 30px;
+    line-height: 90px;
+    transition: .4s;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.menu ul li a:hover{
+    color: #f8b864;
+}
+/* Header part end */
+/* Bannar st  */
+#bannarpart{
+    
+    background: url(../img/bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overly{
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 310px;
+    padding-bottom: 330px;
+}
+
+.bannarcontent{
+    text-align: center;
+    color: white;
+}
+
+.bannarcontent h3{
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+.bannarcontent h1{
+    font-size: 60px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.bannarcontent p{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding: 0 245px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.bannarcontent a{
+    padding: 15px 35px;
+    background: #f8b864;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    transition: .5s;
+}
+
+.bannarcontent a:hover{
+    background-color: white;
+    color: #686868;
+}
+.bannarcontent span{
+    color: #f8b864;
+}
+/* Bannar end */
+
