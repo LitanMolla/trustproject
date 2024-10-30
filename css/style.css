@@ -515,7 +515,7 @@ width: 50%;
 #imgwithicon{
     padding-top: 120px;
     padding-bottom: 120px;
-    background: #f1e5e5;
+    background: #F8F8F8;
 }
 
 .imgandicon{
@@ -576,9 +576,13 @@ display: flex;
     width: 50%;
 }
 
-.iconright{
+.iconmain{
     display: flex;
-    padding: 40px 0;
+}
+
+.iconright{
+    /* display: flex; */
+    padding-top: 20px;
 }
 
 .iconright i{
@@ -596,7 +600,16 @@ display: flex;
     font-weight: 400;
 }
 
+.iconrapper p{
+    font-size: 14px;
+    line-height: 21px;
+}
+
 .iconrapper{
     padding-left: 35px;
 }
 /* Img with icon part  */
+
+/* Blog part css */
+
+/* Blog part css */
