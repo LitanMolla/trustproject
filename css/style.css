@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6, p{
 
 /* Top bar  */
 #topbar{
-    padding: 25px 0;
+    padding: 18px 0;
     background-color: #3E3E3E;
     
 }
@@ -83,7 +83,7 @@ transition: .4s;
     text-transform: uppercase;
     color: #555555;
     font-weight: 700;
-    padding: 0 30px;
+    padding: 0 25px;
     line-height: 90px;
     transition: .4s;
 }
@@ -160,7 +160,7 @@ transition: .4s;
 
 /* Goal part css st */
 #goal{
-    height: 750px;
+    height: 620px;
     padding-top: -100px;
     }
 
@@ -249,3 +249,354 @@ transition: .4s;
 box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 
 }
+
+
+/* latest part css  */
+#latest{
+    padding: 10px 0;
+    display: flex;
+}
+
+.latestcontent{
+text-align: center;
+}
+
+.latesttext h2{
+    font-size: 36px;
+    line-height: 36px;
+    color: #555555;
+    font-family: "Roboto Slab", serif;
+}
+
+.latestimg{
+    padding: 10px 0;
+    position: relative;
+    display: inline-block;
+    transform: translate(-50%);
+}
+
+.latestimg::after{
+position: absolute;
+top: 50%;
+left: -170px;
+height: 1px;
+width: 130px;
+background: #DDDDDD;
+content: "";
+}
+
+.latestimg::before{
+position: absolute;
+top: 50%;
+right: -170px;
+height: 1px;
+width: 130px;
+background: #DDDDDD;
+content: "";
+}
+
+.latestcontent p{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+}
+/* latest part css  */
+
+
+
+/* Blog part css */
+#blog{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.blogpart{
+    /* background: #f3dfc4; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogimg img{
+    width: 100%;
+    
+}
+
+.blogimg{
+    width: 30%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 40px;
+}
+
+.blogtext{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.price{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+.button{
+    display: inline-block;
+}
+
+.button:hover{
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.butoonrapper{
+    padding-left: 40px;
+}
+
+.button a{
+    background: #f8b864;
+    color: #ffff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.blogtext a{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+    padding: 20px 0;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.blogtext a:hover{
+    color: #F8B878;
+}
+
+.blogtext p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.price p{
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #888888;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.price p span{
+    color: #555555;
+}
+/* Blog part css */
+
+
+/* Post css start  */
+#post{
+    padding-top: 120px;
+    /* padding-bottom: 120px; */
+    background: #F8F8F8;
+}
+
+#post2{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #F8F8F8;
+}
+
+.postpart{
+    display: flex;
+}
+
+.postimg{
+position: relative;
+width: 50%;
+}
+
+.post-overly{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.post-overly i{
+    font-size: 80px;
+    color: #fff;
+}
+
+.posttext2{
+    width: 50%;
+    padding-top: 70px;
+    padding-right: 60px;
+    text-align: right;
+}
+
+.posttext{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+.posttext h1{
+    
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+.posttext2 h1{
+    
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+
+.ruller{
+    height: 1px;
+    width: 70px;
+    background: #F8B864;
+    margin: 20px 0;
+}
+
+.ruller2{
+
+    height: 1px;
+    width: 70px;
+    background: #F8B864;
+    margin: 20px 0 20px 500px;
+}
+
+.posttext p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+.posttext2 p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+/* Post css end  */
+
+
+
+/* Banner  */
+.bannerpart{
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.banneroverly{
+    background: rgba(0, 0, 0, 0.5);
+    height: 380px;
+}
+/* Banner  */
+
+/* Img with icon part  */
+#imgwithicon{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f1e5e5;
+}
+
+.imgandicon{
+text-align: center;
+}
+
+.imgpart{
+    width: 50%;
+}
+
+.imgandicon h1{
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+
+.imgandicon .hand{
+    padding: 20px 0;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.imgandicon .hand::after{
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    background: #DDDDDD;
+    top: 50%;
+    left: -170px;
+    content: "";
+}
+
+.imgandicon .hand::before{
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    background: #DDDDDD;
+    top: 50%;
+    right: -170px;
+    content: "";
+}
+.imgandicon p{
+font-family: "Open Sans", sans-serif;
+color: #777777;
+font-size: 16px;
+line-height: 24px;
+padding-bottom: 80px;
+}
+
+.imgiconrapper{
+display: flex;
+/* justify-content: space-between; */
+}
+
+.imgleft{
+    width: 50%;
+}
+
+.iconright{
+    display: flex;
+    padding: 40px 0;
+}
+
+.iconright i{
+    color: #777;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.iconright h3{
+    color: #555555;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.iconrapper{
+    padding-left: 35px;
+}
+/* Img with icon part  */
