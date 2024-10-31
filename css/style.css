@@ -611,5 +611,293 @@ display: flex;
 /* Img with icon part  */
 
 /* Blog part css */
+#blog{
+    padding: 100px 0;
+    text-align: center; 
+}
 
+.blogflex{
+    display: flex;
+    display: inline-block;
+    width: 100%;
+}
+
+.blogtop{
+display: inline-block;
+}
+
+.blogtop .topimg::before{
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top: 50%;
+    left: 160px;
+    background: #DDDDDD;
+    content: "";
+   transform: translate(-50%, -50%);
+}
+
+.blogtop .topimg::after{
+    position: absolute;
+    height: 1px;
+    width: 130px;
+    top: 50%;
+    right: 20px;
+    background: #DDDDDD;
+    content: "";
+   transform: translate(-50%, -50%);
+}
+
+.blogtop h1{
+    font-size: 36px;
+    line-height: 36px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+}
+
+.blogtop .topimg{
+    padding: 15px 0;
+    position: relative;
+}
+
+.blogtop p{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+    padding-bottom: 70px;
+}
+
+.post-item{
+width: 31.5%;
+}
+
+.post-img img{
+    width: 100%;
+}
+
+.post-img{
+    position: relative;
+    height: 64%;
+
+}
+
+.post-img:hover .img-overly{
+    visibility: visible;
+    opacity: 1;
+}
+
+.img-overly{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.img-overly a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 35px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.post-text{
+    text-align: start;
+    padding-left: 30px;
+
+
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.post-text p{
+    font-family: "roboto slab";
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+    padding: 15px 0;
+}
+
+.post-text .buttontext{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Roboto Slab", serif;
+    color: #555555;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.post-text .buttontext:hover{
+    color: #F8B864;
+}
+
+.post-text .readtext:hover{
+    color: #F8B864;
+}
+
+.post-text .readtext{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "roboto slab";
+    color: #555555;
+    transition: .5s;
+    padding: 25px 0;
+}
+
+.post-flex{
+    display: flex;
+    justify-content: space-between;
+}
 /* Blog part css */
+
+/* Footer part css */
+#footer{
+    background: #2E2E2E;
+    height: 540px;
+}
+
+.footer-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content{
+    padding-top: 120px;
+    width: 20%;
+}
+
+.about h1{
+    color: #ffff;
+    font-family: "open sans";
+    font-size: 18px;
+    line-height: 21.6px;
+    padding-bottom: 30px;
+}
+
+.about p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #aaaaaa;
+    padding-bottom: 20px;
+}
+
+.social a i{
+    color: #aaaaaa;
+    margin-right: 10px;
+    font-size: 26px;
+    line-height: 26px;
+    transition: .5s;
+}
+
+.social a i:hover{
+    color: #fff;
+}
+
+.important-menu{
+
+}
+
+.important-menu a{
+display: block;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+line-height: 21px;
+color: #aaaaaa;
+padding-bottom: 15px;
+transition: .5s;
+}
+
+.insta-part{
+
+}
+
+.insta-part h1{
+    color: #ffff;
+    font-family: "open sans";
+    font-size: 18px;
+    line-height: 21.6px;
+    padding-bottom: 30px;
+}
+
+.important-menu a:hover{
+    color: #fff;
+}
+
+.instagram-feed{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insta-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.insta-img:hover .insta-overly{
+    visibility: visible;
+    opacity: 1;
+}
+
+.insta-img img{
+    width: 100%;   
+    height: 100%;
+}
+
+.insta-img .insta-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: #fff;
+}
+.insta-overly{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.footer-dag{
+    height: 1px;
+    width: 100%;
+    background: #aaaaaa;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.footer-text{
+    
+}
+.footer-text p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-text p a{
+    color: white;
+}
+
+.footer-text p a:hover{
+    color: #F8B864;
+}
+/* Footer part css */
